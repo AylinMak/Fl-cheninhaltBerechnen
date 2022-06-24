@@ -1,0 +1,11 @@
+#EINGABE
+grundseite = float(input("Grundseite eingeben: "))
+breite = float(input("Breite eingeben: "))
+hoehe = float(input("Höhe eingeben: "))
+
+# VERARBEITUNG
+def flaechenberechung(a, c, h):
+    return 1/2 * (a + c) * h
+
+#AUSGABE
+print("Die Fläche beträgt: ", flaechenberechung(grundseite, breite, hoehe))
