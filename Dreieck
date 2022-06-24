@@ -1,0 +1,10 @@
+# EINGABE
+grundseite = float(input("Grundseite eingeben: "))
+hoehe = float(input("Höhe eingeben: "))
+
+# VERARBEITUNG
+def flaecheDreieck(g, h):
+    return g * h / 2
+
+# AUSGABE
+print("Flächeninhalt:", flaecheDreieck(grundseite, hoehe))
