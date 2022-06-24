@@ -1,0 +1,9 @@
+#EINGABE
+hoehe = float(input("Höhe eingeben: "))
+
+# Verarbeitung
+def flaechenberechung(a):
+    return a * a
+
+#Ausgabe
+print("Die Fläche beträgt: ", flaechenberechung(hoehe))
