@@ -1,0 +1,11 @@
+import math
+
+#EINGABE
+durchmesser = float(input("Durchmesser eingeben: "))
+
+# VERARBEITUNG
+def flaechenberechung(r):
+    return math.pi * r**2
+
+#AUSGABE
+print("Die Fläche beträgt: ", flaechenberechung(durchmesser))
